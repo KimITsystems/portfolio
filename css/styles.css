@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
-
-body {
+/* modified */
+.g-base {
     background-color: #FFFFFF;
     color: #3d5170;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,14 +11,14 @@ body {
     justify-content: center;
     align-items:center;
 }
-
-.heading {
+/* modified */
+.g-heading {
     font-family: "share tech";
     font-size: 40px;
     font-weight:bold;
 }
-
-.sub-heading {
+/* modified */
+.g-sub-heading {
     font-size: 16px;
     letter-spacing: 8px;
     font-weight: 600;
@@ -53,64 +53,66 @@ footer p {
     font-weight: bold;
 }
 
-aside {
+/* modified P(page-styling homepage) */
+#p-home aside {
     max-width: 800px;
     padding-top:10px;
 	padding-bottom:10px;
     border-top: dotted 2px #3d5170;
 	margin-top:10px;
 }
-
-#thumbnails {
+/* modified */
+#p-home #s-thumbnails {
     max-width: 880px;
     padding-top:20px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-img {
+/* modified */
+#p-home #s-thumbnails img {
     border-radius: 5px;
     width: 200px;
     height: 298px;
 }
-
-nav {
+/* modified */
+#p-thumbnail #s-navigation {
     padding-bottom:20px;
     display:flex;
 }
-
-i {
+/* modified */
+#p-thumbnail #s-navigation i {
     padding-right:8px;
 }
-
-.nav-link {
+/* modified */
+#p-thumbnail #s-navigation .nav-link {
     padding-right:20px;
     font-weight:bold;
 }
-
-.nav-link:nth-of-type(3) {
+/* modified */
+#p-thumbnail #s-navigation .nav-link:nth-of-type(3) {
     padding-left:20px;
     border-left: 2px dotted #6f7276;
 }
-
-.full-image {
+/* modified */
+#p-thumbnail #s-poster .full-image {
     border-radius: 10px;
     width:469px;
     height:700px;
 }
 
 @media (max-width: 500px) {
-    #thumbnails {
+    /* modified */
+    #p-home #s-thumbnails {
         flex-direction: column;
         align-items: center;
     }
-
-    figure {
+    /* modified */
+    #p-home #s-thumbnails figure {
         padding-right: 0px;
     
     }
-    .full-image {
+    #p-home #s-poster .full-image {
         width:300px;
         height: 450px;
     }
