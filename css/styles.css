@@ -634,7 +634,7 @@ footer {
     }
 
     #s-contact .s-groupform {
-        border:solid #f50808;
+        /* border:solid #f50808; */
         width: 330px;
     }
 }
