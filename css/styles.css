@@ -219,7 +219,7 @@ main {
     font-family: 'Raleway';
 }
 
-#s-contact #s-groupform {
+#s-contact .s-groupform {
     /* border:solid #f50808; */
     display: flex;
     flex-direction: row;
@@ -227,7 +227,7 @@ main {
     margin-bottom: 50px;
 }
 
-#s-contact #s-groupform:nth-of-type(4) input{
+#s-contact #s-groupform input{
     height: 80px;
 }
 
@@ -243,7 +243,7 @@ input[type="text"]{
     border: solid #000000 0.3px;
 }
 
-#s-contact #s-groupform #textarea {
+#s-contact .s-groupform #textarea {
     background-color:aliceblue;
 }
 
@@ -537,7 +537,7 @@ footer {
     justify-content: center;
 }
 
-#p-home #application a {
+#p-home .application a {
     text-decoration: none;
     color: #000000;
 
@@ -547,6 +547,11 @@ footer {
     &:hover {
         color: #8c9bb0;
     }
+}
+
+#p-home iframe {
+    width: 560px;
+    height: 315px;
 }
 
 @media (max-width: 500px) {
