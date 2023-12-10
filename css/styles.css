@@ -628,4 +628,13 @@ footer {
         text-align: left;
         height: 100%;
     }
+
+    footer {
+        margin-top: 20px;
+    }
+
+    #s-contact .s-groupform {
+        border:solid #f50808;
+        width: 330px;
+    }
 }
